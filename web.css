@@ -1,0 +1,49 @@
+body {
+    background-image: url(R\ \(8\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul li img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    left: 10%;
+    transform: translate(-500px,0);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #aae763;
+    justify-content: center;
+    display: flex;
+}
+
+li a {
+    display: flex;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    justify-content: center;
+}
+li a:hover {
+    background-color: #8bce3f;
+}
+.es {
+    justify-content: left;
+}
+#log {
+    justify-items: center;
+    color: rgb(228, 214, 193);
+}
+form {
+  
+}
+#bt {
+    
+    border-style: hidden;
+}

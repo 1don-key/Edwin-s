@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.r Kash Mir account creation</title>
+    <link rel="icon" href="Kash Mir logo.png" type="x-icon/img">
+    <link rel="stylesheet" href="account.css">
+    <style>
+        body {
+            background-image: url(R\ \(3\).jpeg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>Create Account</h3>
+    <!-- https://www.geeksforgeeks.org/html-design-form/?ref=lbp -->
+    <!-- https://codingstella.com/modern-login-form-using-html-css/ -->
+    <div class="wrapper">
+        <form action="account.html">
+            <fieldset class="sign" style="overflow: auto;">
+
+                <legend class="header">Kash Mir Account Sign Up</legend>
+
+                <div>
+
+                    <label for="first">First Name</label>
+                    <input type="text" id="first" name="first" placeholder="First Name" required> <br><br>
+
+                    <label for="second">Second Name</label>
+                    <input type="text" id="second" name="second" placeholder="Second Name" required> <br><br>
+
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="username" required> <br><br>
+
+                    <label for="Contact">Contact</label>
+                    <input type="tel" maxlength="16" minlength="10" pattern="[+254] {4}-[0-9] {3}-[0-9] {3}-[0-9]-3"
+                        id="Contact" name="Contact" placeholder="+254-712-345-678" required> <br><br>
+
+                    <label for="email">email address</label>
+                    <input type="email" id="email" name="email" placeholder="input email address" required> <br><br>
+
+                    <label for="gender"><b>Gender;</b></label> <br>
+
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label> <br>
+
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label> <br><br>
+
+                    <label for="Country">Country Of Residence</label>
+                    <select name="Country" id="Country" required>
+                        <option value="Kenya">Kenya</option>
+                        <option value="Tanzania">Tanzania</option>
+                        <option value="Uganda">Uganda</option>
+                    </select> <br><br>
+
+                    <div class="input">
+                        <input type="submit" class="input" value="sign up"> <br><br>
+
+                        <span>Already have an account?</span> <br>
+                        <button onclick="document.location='web.html'">login</button>
+
+                    </div>
+            </fieldset>
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>

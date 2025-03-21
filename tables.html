@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+
+    <style>
+        body {
+            background-image: url(R\ \(6\).jpeg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        table {
+            width: 80%;
+            height: 200px;
+        }
+        table, tr, td {
+            border: 2px solid black;
+            
+        }
+        tr:hover {
+            color: rgb(6, 91, 117);
+        }
+        tr:nth-child(even) {
+            background-color: rgb(241, 231, 250);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Tables</h1>
+       <div>
+    <center>
+        <table style="border-collapse: collapse;">
+            <caption>Table 1</caption>
+            <tr>
+                <th colspan="4" style="width: 80%;">Birds Collection</th>
+                <td rowspan="5"> <img src="Red-Phoenix-1.png" alt="" style="height: 200px;"> </td>
+            </tr>
+            <tr>
+                <td style="background-color: black;"></td>
+                <td style="text-decoration: underline;"><b>Group</b></td>
+                <td style="text-decoration: underline;"><b>Cage</b></td>
+                <td style="text-decoration: underline;"><b>Qty</b></td>
+            </tr>
+            <tr>
+                <td style="color:4px solid black;"><i>Kestrel</i></td>
+                <td>B</td>
+                <td>2</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td><i>Cardinal</i></td>
+                <td>A</td>
+                <td>3</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td><i>Parrot</i></td>
+                <td>B</td>
+                <td>1</td>
+                <td>5</td>
+            </tr>
+
+        </table>
+    </div>
+    </center>
+    <br><br><br><br><br>
+    
+    <center>
+    <div>
+        <table style="border-collapse: collapse;">
+            <caption>Table 2</caption>
+            <tr>
+                <th>Finance</th>
+                <td style="text-align: center;">_ _ _</td>
+                <td style="text-align: center;">_ _ _</td>
+            </tr>
+            <tr>
+                <th>Administrative</th>
+                <td style="text-align: center;">_ _ _</td>
+                <td style="text-align: center;">_ _ _</td>
+            </tr>
+            <tr>
+                <th>Quality Assuarance</th>
+                <td style="text-align: center;">Division 1</td>
+                <td style="text-align: center;">Division 2</td>
+            </tr>
+        </table>
+    </div>
+</center>
+<br><br><br><br>
+<center>
+    <div>
+        <table style="border-collapse: collapse;">
+            <caption>Table 3</caption>
+            <tr>
+                <td rowspan="2"></td>
+                <th colspan="2"> Average</th>
+                <td rowspan="2"> Red Eyes</td>
+            </tr>
+           <tr>
+                <th>Height</th>
+                <th>Weight</th>
+           </tr>
+           <tr>
+            <th>Males</th>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+           </tr>
+           <tr>
+            <th>Females</th>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+           </tr>
+        </table>
+    </div>
+</center>
+<br><br><br><br>
+<center>
+    <div>
+        <table>
+            <caption>Table 4</caption>
+            <tr>
+            <th colspan="3" style="text-align: left; border-style: double;">Fruit Palace <sup>TM</sup></th>
+            </tr>
+            <tr>
+                <th style="border-style: double;">Fruit</th>
+                <th style="border-style: double;">Old Price</th>
+                <th style="border-style: double;">New Price</th>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td>$<del>1.25</del></td>
+                <td>$0.25</td>
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td>$<del>2.50</del></td>
+                <td>$1.50</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>$<del>1.80</del></td>
+                <td>$0.80</td>
+            </tr>
+            <tr>
+                <td>Pineapple</td>
+                <td>$<del>2.00</del></td>
+                <td>$1.00</td>
+            </tr>
+            <tr>
+                <th style="border-style: double;">Total</th>
+                <td>$<del>7.55</del></td>
+                <td>$3.55</td>
+            </tr>
+        </table>
+    </div>
+</center>
+<br><br><br><br>
+<center>
+    <div>
+        <table id="five" style="border-collapse: collapse; text-align: center;">
+            <caption>Table 5</caption>
+            <tr>
+                <th>DAY</th>
+                <td>8:00-10:00</td>
+                <td>10:00-12:00</td>
+                <td>12:00-2:00</td>
+                <td>2:00-4:00</td>
+            </tr>
+            <tr>
+                <td>MON</td>
+                <td colspan="2">INT 111</td>
+                <td colspan="2">INTE 121</td>
+            </tr>
+            <tr>
+                <td>TUE</td>
+                <td rowspan="2">INTE 113</td>
+                <td rowspan="2"; colspan="2">BIBLE</td>
+                <TD>LAB</TD>
+            </tr>
+            <tr>
+                <td>WED</td>
+                <td>COM SKILLS</td>
+            </tr>
+            <tr>
+                <td>THUR</td>
+                <td></td>
+                <td rowspan="2" colspan="2">LAB</td>
+                <td> LAB</td>
+            </tr>
+            <tr>
+                <td>FRI</td>
+                <td>SEMINAR</td>
+                <td>FREE HOUR</td>
+            </tr>
+        </table>
+    </div>
+</center>
+</body>
+</html>

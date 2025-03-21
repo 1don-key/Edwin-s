@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0%;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.menu a {
+    background-color:rgba(210, 105, 30,0.9);
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-top: 30px;
+    color: rgb(252, 243, 161);
+    text-decoration: none;
+}
+
+.right {
+    float: left;
+    background-color: rgba(210, 105, 30,0.9);
+    text-align: center;
+    padding: 1%;
+    width: 20%;
+    margin-top: 30px;  
+}
+
+.main {
+    float: left;
+    width: 60%;
+    text-align: left;
+    padding: 2%;
+} 
+
+
+@media screen and (max-width: 600px) {
+    /* For mobile phones */
+  .main, .menu, .right {
+    width: 100%;
+    font-size: 1.vw;
+  }
+
+}
+
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: rgba(210, 105, 30,0.6);
+   padding: 3%;
+   text-align: center;
+}
+
